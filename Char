@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char s[100];
+    int c1=0,c2=0,i;
+    gets(s1);
+    while(s1[i]!='\0')
+    {
+        if(s[i]='A' && s[i]='Z')
+        else if(s[i]='a' && s[i]='z')
+        c1++;
+        else
+        c2++;
+    }
+    printf("no.of char= %d\n no.of spl char= %d",c1,c2);
+    return 0;
+}
